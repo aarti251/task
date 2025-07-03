@@ -5,7 +5,7 @@
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd bookstore-api
+   
 
 
   2.Install dependencies:
@@ -26,7 +26,7 @@
 
  Add a Book:
  curl -X POST http://localhost:3000/books -H "Authorization: Bearer <token>" -H "Content-Type: application/json" -d '{"title": "Book Title", "author": "Author Name", "genre": "Genre", "publishedYear": 2023}'
- 
-  
+
+
 
   
